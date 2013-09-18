@@ -1,7 +1,7 @@
 <?php
-namespace Tests\Zend\Validate;
+namespace Tests\Zend\Filter;
 
-class AclTest extends \Tests\TestCase
+class FilterTest extends \Tests\TestCase
 {
     protected $classes = array(
         '\Zend_Filter',

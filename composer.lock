@@ -3,20 +3,20 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "6de7274351600d734e36bd8f674bbeaf",
+    "hash": "197edd799a99686283a927fa70759b67",
     "packages": [
         {
             "name": "hearstuk/zf1-component-cache",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/joegreen88/zf1-component-cache.git",
-                "reference": "c86f3dfacc74ac4aa6ac2069e2a68495d72b3779"
+                "reference": "1802b57ff4d2e58e2c1f606c2de067dd16810131"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/joegreen88/zf1-component-cache/zipball/c86f3dfacc74ac4aa6ac2069e2a68495d72b3779",
-                "reference": "c86f3dfacc74ac4aa6ac2069e2a68495d72b3779",
+                "url": "https://api.github.com/repos/joegreen88/zf1-component-cache/zipball/1802b57ff4d2e58e2c1f606c2de067dd16810131",
+                "reference": "1802b57ff4d2e58e2c1f606c2de067dd16810131",
                 "shasum": ""
             },
             "require": {
@@ -37,6 +37,9 @@
                 }
             },
             "notification-url": "http://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Joe Green",
@@ -45,24 +48,24 @@
             ],
             "description": "The Zend_Cache component from Zend Framework 1.12 abstracted out for use with composer.",
             "homepage": "http://github.com/joegreen88/zf1-component-cache",
-            "time": "2013-09-18 10:04:24"
+            "time": "2013-09-18 15:32:38"
         },
         {
             "name": "hearstuk/zf1-component-locale",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/joegreen88/zf1-component-locale.git",
-                "reference": "7527f9b4f7f03e279557b5c70744902b91d9a609"
+                "reference": "c8a4e1a1904c1869fa4a66248a48e5415c85a2fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/joegreen88/zf1-component-locale/zipball/7527f9b4f7f03e279557b5c70744902b91d9a609",
-                "reference": "7527f9b4f7f03e279557b5c70744902b91d9a609",
+                "url": "https://api.github.com/repos/joegreen88/zf1-component-locale/zipball/c8a4e1a1904c1869fa4a66248a48e5415c85a2fd",
+                "reference": "c8a4e1a1904c1869fa4a66248a48e5415c85a2fd",
                 "shasum": ""
             },
             "require": {
-                "hearstuk/zf1-component-cache": "1.0",
+                "hearstuk/zf1-component-cache": "1.1",
                 "hearstuk/zf1-components-base": "1.1",
                 "php": ">=5.3.0"
             },
@@ -91,7 +94,7 @@
             ],
             "description": "The Zend_Locale component from Zend Framework 1.12 abstracted out for use with composer.",
             "homepage": "http://github.com/joegreen88/zf1-component-locale",
-            "time": "2013-09-18 12:08:47"
+            "time": "2013-09-18 15:34:53"
         },
         {
             "name": "hearstuk/zf1-components-base",
